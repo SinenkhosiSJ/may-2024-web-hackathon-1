@@ -1,0 +1,46 @@
+body {
+    color: #fffadb;
+    font-family: "Kanit", sans-serif;
+}
+.null {
+    display: flex;
+    justify-content: center;
+}
+.main-section {
+    
+    background-color: #a8a279;
+    width: 800px;
+    padding: 50px;
+    border-radius: 50px;
+}
+img {
+    width: 200px;
+
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+.pointer-01, .pointer-02, .pointer-03{
+    cursor: pointer;
+    background-color: #fffadb;
+    color: #a8a279;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.toggle-img {
+    width: 20px;
+    align-self: center;
+    margin: 0;
+
+}
+.pointer-01 h3, .pointer-02 h3, .pointer-03 h3{
+    flex-grow: 1;
+}
